@@ -1,1 +1,38 @@
 @import '~bootstrap/scss/bootstrap';
+
+.whoop {
+  height: 50px;
+}
+.title {
+  // float: right;
+  color: white;
+  font-size: 32px;
+
+}
+.navbar {
+  background-color: #101010;
+}
+.body {
+  background-color: #303030;
+}
+.bulk {
+  background-color: #F5F5F5;
+  align-content: center;
+  height: 50%;
+  margin: 30px;
+  color: black;
+  border-radius: 5px;
+}
+.order-number {
+  color: red;
+}
+.order-number {
+  margin: 10px;
+}
+p {
+  margin: 10px;
+}
+.directions {
+  font-size: 20px;
+  padding-top: 10px;
+}

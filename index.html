@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <title>Example</title>
+      <title>WHOOP Gen 3.0 Order Status</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
       <!-- Do not add `link` tags-->
@@ -11,7 +11,41 @@
       <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
       <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
     </head>
-    <body>
-      <h1>Browser Template</h1>
+    <body class="body">
+    <nav class="navbar navbar-expand-lg static-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img class="whoop" src="public/whoop.png" alt="">
+        </a>
+      <div class="navbar-nav ml-auto title">WHOOP Gen 3.0 Order Status
+</div>
+</div>
+</nav>
+<div class="bulk">
+<div class="directions">
+  <p>
+    To look up the status of an order, including the shipping date, please enter your order # below.
+  </p>
+
+  <p>
+  You can find your order number on the receipt of your purchase, it is of the format #B followed by 6 numbers, e.g. #B111111
+  </p>
+
+  <p>
+  Due to overwhelming demand, there is a wait time for orders to ship. We are working as quickly as possible to fulfill orders as inventory levels allow. This tool will give the best current estimate of when we expect your order to ship.
+  </p>
+</div>
+<form class="order-number">
+  <label>
+    <div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="inputGroup-sizing-default">Order Number: </span>
+  </div>
+  <input type="text" class="form-control" placeholder="#B111111" aria-label="#B111111">
+</div>
+</label>
+<button type="button" class="btn btn-danger">Submit</button>
+</form>
+</div>
     </body>
 </html>
